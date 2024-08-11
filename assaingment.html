@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container p-5">
+
+        <h1>1.Connect CSS and Bootstrap with HTML</h1>
+        <div class="p-5">
+            <p class="fw-bolder">Connect Successfull!!!</p>
+        </div>
+
+        <!-- button-->
+        <h1>2.Button</h1>
+        <div class="p-5">
+            <button class="btn btn-info">Button-1</button>
+            <button class="btn btn-light">Button-2</button>
+            <button class="btn btn-dark">Button-3</button>
+            <button class="btn btn-success">Button-4</button>
+            <button class="btn btn-outline-danger">Button-5</button>
+            <button class="btn btn-outline-secondary">Button-6</button>
+            <button class="btn btn-primary btn-lg">Button-7</button>
+            <button class="btn btn-secondary btn-sm">Button-8</button>
+            <button class="btn btn-danger btn-close-white">Button-9</button>
+            <button class="btn btn-warning btn-close">Button-10</button>
+        </div>
+
+        <!-- Card -->
+        <h1>3.Card</h1>
+        <div class="row text-center p-5">
+            <div class="col-12 col-lg-3 col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Card-1</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, ad!
+                        </p>
+                    </div>
+                    <img class="card-img" src="./images/image-cache.jfif" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Card-2</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, ad!
+                        </p>
+                    </div>
+                    <img class="card-img" src="./images/image-cache.jfif" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Card-3</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, ad!
+                        </p>
+                    </div>
+                    <img class="card-img" src="./images/image-cache.jfif" alt="">
+                </div>
+            </div>
+            <div class="col-1 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Card-4</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, ad!
+                        </p>
+                    </div>
+                    <img class="card-img" src="./images/image-cache.jfif" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- form -->
+        <h1>4.Form</h1>
+        <div class="p-5">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-lable">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-lable">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <div class="form-check-inline">
+                        <label for="male">Male</label>
+                        <input type="radio" class="form-check-input" name="radio" id="male">
+                    </div>
+                    <div class="form-check-inline">
+                        <label for="female">Female</label>
+                        <input type="radio" class="form-check-input" name="radio" id="female">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-check-inline">
+                        <label for="tnc">Accepts Terms and Condition:</label>
+                        <input type="checkbox" class="form-check-input" id="tnc">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="department">Department:</label>
+                    <select name="department" id="department" class="form-select-inline">
+                        <option value="gebt" selected>Select One</option>
+                        <option value="gebt">GEBT</option>
+                        <option value="cse">CSE</option>
+                        <option value="eee">EEE</option>
+                        <option value="ipe">IPE</option>
+                        <option value="pharmacy">Phermacy</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+
+        </div>
+
+        <!-- list-group -->
+        <h1>5.List Group</h1>
+        <div class="p-5">
+            <ul class="list-group">
+                <li class="list-group-item ">Md Mahmudul Hasan</li>
+                <li class="list-group-item ">Rabbil Hasan Rupom</li>
+                <li class="list-group-item ">Amit Biswas</li>
+                <li class="list-group-item ">Sumon Barai</li>
+            </ul>
+        </div>
+
+        <!-- navbar -->
+        <h1>6.Navbar</h1>
+        <div class="p-5">
+            <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+                <a href="#" class="navbar-brand">
+                    <div class="text-light px-2 px-lg-5 ">
+                        <h3>
+                            MH IT
+                        </h3>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse px-2 px-lg-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><span>Home</span></a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><span>Course</span></a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><span>Contact</span></a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><span>About Me</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- progress bar -->
+        <h1>7.Progress Bar</h1>
+        <div class="p-5">
+            <div class="progress">
+                <div class="progress-bar w-50"></div>
+            </div>
+        </div>
+
+        <!-- pagination -->
+        <h1>8.Pagination</h1>
+        <div class="p-5">
+            <ul class="pagination py-3 justify-content-center bg-dark">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+            </ul>
+        </div>
+
+        <!-- Table -->
+        <h1>9.Table</h1>
+        <div class="p-5">
+            <table class="table table-bordered text-center table-hover table-secondary">
+                <thead>
+                    <tr class="table-dark">
+                        <th scope="col">Qualification</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Passing Year</th>
+                        <th scope="col">GPA/CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">SSC</td>
+                        <td>Jashore Collectorate School</td>
+                        <td>2020</td>
+                        <td>5.00</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th scope="row">HSC</td>
+                        <td>Jashore City Collage</td>
+                        <td>2022</td>
+                        <td>5.00</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th scope="row">BSC</td>
+                        <td>JUST</td>
+                        <td>2028</td>
+                        <td>4.00</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th scope="row">MSC</td>
+                        <td>JUST</td>
+                        <td>2030</td>
+                        <td>4.00</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+        <!-- Dropdown -->
+        <h1>10.Dropdown</h1>
+        <div class="p-5">
+            <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+                <a href="#" class="navbar-brand">
+                    <div class="text-light px-2 px-lg-5 ">
+                        <h3>
+                            MH IT
+                        </h3>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse px-2 px-lg-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><span>Home</span></a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><span>Course</span></a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><span>Contact</span></a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><span>About Me</span></a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Project-1</a></li>
+                                <li><a class="dropdown-item" href="#">Project-2</a></li>
+                                <li><a class="dropdown-item" href="#">Project-3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
